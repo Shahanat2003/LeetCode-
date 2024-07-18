@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function roman(rom){
+            a=[];
+            sum=0
+            r=rom.split("")
+            for(i=0;i<r.length;i++){
+               
+            r[i]=="I"?a.push(1): r[i]=="V"?a.push(5):r[i]=="X"?a.push(10): r[i]=="L"?a.push(50): r[i]=="C"?a.push(100): r[i]=="D"?a.push(500):r[i]=="M"?a.push(1000):r[i]=0;
+               
+            }
+        
+        for(j=0;j<a.length;j++){
+            if(a[j]<a[j+1]){
+                sum=sum-a[j]
+            }
+            else{
+                sum=sum+a[j]
+            }
+        }
+        return sum
+            }
+    
+       console.log(roman("MCMXCIV"));
+    </script>
+</body>
+</html>

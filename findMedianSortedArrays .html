@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <html>
+        <script>
+            function findMedianSortedArrays (nums1,nums2){
+                aray=[...nums1,...nums2]
+                ar=aray.sort((a,b)=>a-b)
+                len=ar.length;
+                midle=Math.floor(len/2);
+                if(len%2===0){
+                    return (ar[midle]+ar[midle-1])/2
+                }
+                else{
+                    return ar[midle]
+                }
+
+            }
+           console.log( findMedianSortedArrays ([1,2],[3,4]))
+        </script>
+    </html>
+</body>
+</html>
