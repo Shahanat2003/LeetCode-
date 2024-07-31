@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function addDigits(num){
+            if(num<10){
+                return num
+            }
+            else{
+             num1=num.toString().split("").map(Number)
+             sum=num1.reduce((a,b)=>a+b,0)
+             if(sum[length]==1){
+                return sum
+             }
+             else{
+               return addDigits(sum)
+             }
+             
+            }
+            
+            
+
+        }
+        console.log(addDigits(0))
+    </script>
+</body>
+</html>
