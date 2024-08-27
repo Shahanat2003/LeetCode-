@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function missingNumber (nums){
+            const len=nums.length
+            const totalSum=len*(len+1)/2
+            const sum=nums.reduce((a,x)=>a+x,0)
+            const missing=totalSum-sum
+        
+          return missing
+
+        }
+        console.log(missingNumber ([0,1]))
+    </script>
+
+    
+</body>
+</html>
