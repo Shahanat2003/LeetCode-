@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function findPeaks(moun){
+            a=[]
+            for(i=1;i<moun.length-1;i++){
+                if(moun[i]>moun[i+1]&&moun[i]>moun[i-1]){
+                    a.push(i)
+                }
+            }
+            return a
+
+        }
+        console.log(findPeaks([2,4,4]))
+    </script>
+</body>
+</html>
