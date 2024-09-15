@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function  detectCapitalUse(str){
+        if(str===str.toUpperCase()||str===str.toLowerCase()){
+            return true
+        }
+        else if(str[0]===str[0].toUpperCase()&&str.slice(1)===str.slice(1).toLowerCase()){
+            return true
+        }
+        else{
+            return false
+        }
+
+      }
+      console.log(detectCapitalUse("UA"))
+    </script>
+</body>
+</html>
