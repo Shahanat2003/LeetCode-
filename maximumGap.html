@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function maximumGap(ar){
+            var b=0
+        const arr=ar.sort((a,b)=>a-b)
+       
+       if(arr.length>=2){
+        for(i=0;i<=arr.length;i++){
+            const a=Math.abs(arr[i]-arr[i+1])
+            if(b<a){
+            var b=a
+                
+            }
+        }
+       }
+       return b
+       }
+       
+        console.log(maximumGap([1,10000000]))
+    </script>
+</body>
+</html>
