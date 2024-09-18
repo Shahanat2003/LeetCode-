@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function intersection(a1,a2){
+            a=[]
+            b=[]
+           for(i=0;i<a1.length;i++){
+                for(j=0;j<a2.length;j++){
+                    if(a1[i]===a2[j]){
+                        a.push(a1[i])
+                    }
+                }
+           }
+           b=new Set(a)
+          z=Array.from(b)
+           return z
+
+        }
+        console.log(intersection([4,9,5],[9,4,9,8,4]))
+    </script>
+</body>
+</html>
