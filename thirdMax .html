@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function thirdMax (ar){
+            a=new Set(ar)
+            arr1=Array.from(a)
+            arr=arr1.sort((a,b)=>b-a)
+            if(arr.length>=3){
+                return arr[2]
+            }
+            else{
+                return Math.max(...arr)
+            }
+
+        }
+        console.log(thirdMax ([1,2,2,5,3,5]))
+    </script>
+</body>
+</html>
