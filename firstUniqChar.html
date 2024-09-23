@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function firstUniqChar(str){
+            ar=str.split("")
+            arr=ar.filter((x)=>ar.indexOf(x)===ar.lastIndexOf(x))
+            return ar.indexOf(arr[0])
+
+        }
+        console.log(firstUniqChar( "loveleetcode"))
+    </script>
+</body>
+</html>
