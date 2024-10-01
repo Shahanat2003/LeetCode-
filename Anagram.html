@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isAnagram (str,ktr){
+           if(str.length!==ktr.length ){
+            return false
+           }
+           else if(str.length===ktr.length){
+            s=str.split("").sort().join("")
+           
+           k=ktr.split("").sort().join("")
+           if(s===k)
+            return true
+        else{
+            return false
+        }
+
+           }
+           else{
+            return false
+           }
+           
+           }
+           
+              
+           
+        
+        console.log(isAnagram("rat","car"))
+    </script>
+</body>
+</html>
