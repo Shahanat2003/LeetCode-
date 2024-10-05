@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function arrangeWords (string){
+           
+           str=string.split(" ")
+           str1=str.sort((a,b)=>a.length-b.length)
+           str1[0] = str1[0].charAt(0).toUpperCase() + str1[0].slice(1).toLowerCase(); 
+           for(i=1;i<str.length;i++){
+            {
+                str1[i] = str1[i].toLowerCase(); 
+            }
+           }
+           return str1.join(" ")
+          
+
+        }
+        console.log(arrangeWords   ("Leetcode is cool"))
+    </script>
+</body>
+</html>
