@@ -50,4 +50,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/Shahanat2003/LeetCode-/tree/master/0136-single-number) |
+## Math
+|  |
+| ------- |
+| [2298-count-integers-with-even-digit-sum](https://github.com/Shahanat2003/LeetCode-/tree/master/2298-count-integers-with-even-digit-sum) |
+## Simulation
+|  |
+| ------- |
+| [2298-count-integers-with-even-digit-sum](https://github.com/Shahanat2003/LeetCode-/tree/master/2298-count-integers-with-even-digit-sum) |
 <!---LeetCode Topics End-->
