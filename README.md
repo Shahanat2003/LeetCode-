@@ -54,9 +54,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Shahanat2003/LeetCode-/tree/master/0050-powx-n) |
 | [2298-count-integers-with-even-digit-sum](https://github.com/Shahanat2003/LeetCode-/tree/master/2298-count-integers-with-even-digit-sum) |
 ## Simulation
 |  |
 | ------- |
 | [2298-count-integers-with-even-digit-sum](https://github.com/Shahanat2003/LeetCode-/tree/master/2298-count-integers-with-even-digit-sum) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/Shahanat2003/LeetCode-/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
