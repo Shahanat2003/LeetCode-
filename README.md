@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/Shahanat2003/LeetCode-/tree/master/0058-length-of-last-word) |
 | [0344-reverse-string](https://github.com/Shahanat2003/LeetCode-/tree/master/0344-reverse-string) |
 | [0953-reverse-only-letters](https://github.com/Shahanat2003/LeetCode-/tree/master/0953-reverse-only-letters) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/Shahanat2003/LeetCode-/tree/master/1960-check-if-the-sentence-is-pangram) |
 ## String Matching
 |  |
 | ------- |
@@ -73,4 +74,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Shahanat2003/LeetCode-/tree/master/0050-powx-n) |
+## Hash Table
+|  |
+| ------- |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/Shahanat2003/LeetCode-/tree/master/1960-check-if-the-sentence-is-pangram) |
 <!---LeetCode Topics End-->
