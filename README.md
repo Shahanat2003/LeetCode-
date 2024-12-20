@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Shahanat2003/LeetCode-/tree/master/0035-search-insert-position) |
 | [0088-merge-sorted-array](https://github.com/Shahanat2003/LeetCode-/tree/master/0088-merge-sorted-array) |
 | [0136-single-number](https://github.com/Shahanat2003/LeetCode-/tree/master/0136-single-number) |
+| [1651-shuffle-string](https://github.com/Shahanat2003/LeetCode-/tree/master/1651-shuffle-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/Shahanat2003/LeetCode-/tree/master/0058-length-of-last-word) |
 | [0344-reverse-string](https://github.com/Shahanat2003/LeetCode-/tree/master/0344-reverse-string) |
 | [0953-reverse-only-letters](https://github.com/Shahanat2003/LeetCode-/tree/master/0953-reverse-only-letters) |
+| [1651-shuffle-string](https://github.com/Shahanat2003/LeetCode-/tree/master/1651-shuffle-string) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Shahanat2003/LeetCode-/tree/master/1960-check-if-the-sentence-is-pangram) |
 ## String Matching
 |  |
