@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Shahanat2003/LeetCode-/tree/master/0088-merge-sorted-array) |
 | [0136-single-number](https://github.com/Shahanat2003/LeetCode-/tree/master/0136-single-number) |
 | [1651-shuffle-string](https://github.com/Shahanat2003/LeetCode-/tree/master/1651-shuffle-string) |
+| [2727-number-of-senior-citizens](https://github.com/Shahanat2003/LeetCode-/tree/master/2727-number-of-senior-citizens) |
 ## Two Pointers
 |  |
 | ------- |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0953-reverse-only-letters](https://github.com/Shahanat2003/LeetCode-/tree/master/0953-reverse-only-letters) |
 | [1651-shuffle-string](https://github.com/Shahanat2003/LeetCode-/tree/master/1651-shuffle-string) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Shahanat2003/LeetCode-/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [2727-number-of-senior-citizens](https://github.com/Shahanat2003/LeetCode-/tree/master/2727-number-of-senior-citizens) |
 ## String Matching
 |  |
 | ------- |
